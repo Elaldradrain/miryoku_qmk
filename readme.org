@@ -11,7 +11,20 @@
 - The Miryoku QMK development branch readme is at https://github.com/manna-harbour/miryoku_qmk/tree/miryoku/users/manna-harbour_miryoku
 
 
-** 
+**
 
 [[https://github.com/manna-harbour][https://raw.githubusercontent.com/manna-harbour/miryoku/master/data/logos/manna-harbour-boa-32.png]]
- 
+
+**
+
+* Flash
+
+Frood
+```qmk compile -c -kb crkbd -km rune -e CONVERT_TO=promicro_rp2040 -e MIRYOKU_NAV=VI```
+
+Helios
+```qmk compile -c -kb crkbd -km rune -e CONVERT_TO=helios -e MIRYOKU_NAV=VI```
+```qmk compile -c -kb crkbd -km rune -e CONVERT_TO=helios -e MIRYOKU_NAV=VI -e MIRYOKU_ALPHAS=QWERTY```
+
+Enter flash mode and copy the file to the mount
+
